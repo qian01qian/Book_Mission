@@ -7,13 +7,13 @@ function truncateText(text, length) {
 function Bookitem({ book }) {
   return (
     <section>
-        <Link to={`/Books/${book.id}`}>
+        <Link to={`/Books/${book.ID}`}>
             <div className="card bg-gradient-to-br from-blue-50 to-white w-96 shadow-lg">
                 <figure className="px-10 pt-10 ">
                 <img
                     src={book.cover}
                     alt={book.title}
-                    className="rounded-xl h-60 w-40"
+                    className="rounded-xl h-60 w-40 "
                 />
                 </figure>
                 <div className="card-body">

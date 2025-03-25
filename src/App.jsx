@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import Book from './pages/Book'
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Books/title/:BookTitle" element={<Home />} />
